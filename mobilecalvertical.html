@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>hyunseok</title>
+  <style>
+    .page{
+      width:120mm;
+      height:67mm;
+
+      padding-right:10px;
+      padding-left:10px;
+      box-shadow:2px 2px 2px 2px lightgray;
+    }
+    body{
+      background-color:white;
+    }
+    h2{
+      display:inline-block;
+    }
+    .left{
+      display:inline-block;                  
+      border-top: 3.5px solid transparent; 
+      border-left: 0px solid transparent; 
+      border-right: 7px solid #000;
+      border-bottom: 3.5px solid transparent;
+      margin:0 3px 1px 3px;
+      margin-right:15px;
+    }
+    .right{
+      display:inline-block;                  
+      border-top: 3.5px solid transparent; 
+      border-left: 7px solid #000; 
+      border-right: 0px solid transparent;
+      border-bottom: 3.5px solid transparent;
+      margin:0 3px 1px 3px;
+      margin-left:15px;
+    }
+    .todayschedule{
+      font-size:15px;
+      padding:2px;
+      font-family:DINNeuzeitGroteskStd-BdCond;
+    }
+    .buttonright{
+      margin-left:44mm;
+      font-size:20px;
+      display:inline-block;
+    }
+    .month{
+      font-size:9px;
+      font-family:DINNeuzeitGroteskStd-BdCond;
+      display:inline-block;
+      margin-left:85px;
+
+    }
+    table{
+      padding-bottom:10px;
+
+      
+    }
+    th{
+      width:50mm;
+      height:0mm;
+      font-size:6.5px;
+      border-bottom:1px solid lightgray;
+      border-collapse: collapse;
+      font-family:DINNeuzeitGroteskStd-BdCond;
+      text-align:left;
+    }
+    td{
+      width:50mm;
+      height:7.5mm;
+      font-size:10px;
+      vertical-align:top;
+      font-family:DINPro-Medium;
+      
+      
+    }
+    .smallline{
+      border:1px solid #000;
+      border-radius:25px;
+      width:0.2px;
+      height: 10px;
+      background-color:#000;
+      display:inline-block;
+      margin-bottom:0px;
+      margin-left:5px;
+      margin-right:5px;
+    }
+    .up .own, .up .two, .up .three, .up .four, .up .five, .up .six, .up .seven{
+      height:px;
+      padding-top:10px;
+      font-family:DINPro-Light;
+    }
+    .up .four, .up .five, .up .six, .up .seven{
+      font-family:DINPro-Medium;
+    }
+    
+    .under{
+      font-size:18px;
+      text-align:right;
+      margin-top:-25px;
+      font-family:DINNeuzeitGroteskStd-BdCond;
+    }
+    .line{
+      border:1px solid #000;
+      border-radius:25px;
+      width:0.2px;
+      height: 11px;
+      background-color:#000;
+      display:inline-block;
+      margin-bottom:0.5px;
+      margin-left:5px;
+      margin-right:5px;
+    }
+    .gray, .four, .one, .seven{
+      color:gray;
+    }
+    .circleone{
+      width: 6px;
+    height: 6px;
+    background-color: gray;
+    border:0px solid gray;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    margin-left:10px;
+    margin-bottom:1px;
+
+    display:inline-block;
+    }
+    .circletwo{
+      width: 6px;
+    height: 6px;
+    background-color: black;
+    border:0px solid black;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    margin-left:9px;
+    margin-bottom:1px;
+  
+      display:inline-block;
+    }
+    .circlethree{
+      width: 6px;
+    height: 6px;
+    background-color: lightgray;
+    border:0px solid lightgray;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px; 
+    margin-left:9px;
+    margin-bottom:1px;
+
+   display:inline-block;
+    }
+    .sohard{
+    color:white;
+    z-index:10;
+    }
+    .a{height:18px; width:18px;
+              border:1px solid #555;
+              background-color: #555;
+              border-radius: 50px;
+              position: absolute;
+              top:50.66mm; left:72.1mm;
+      z-index:-1;
+    }
+    .sibal{
+      margin:0;
+      padding:0;
+    }
+    </style>
+</head>
+<body>
+  <div class="a"></div>
+<div class="page">
+ <div>
+   <h3 class="todayschedule"><span>TODAY <div class="smallline"></div> SCHEDULE</span><div class="month">
+   <h2><div class="left"></div>2014 .1<div class="right"></div></h2><span class="buttonright"><strong>+</strong></span></div></h3></div>
+ <div class="day">
+   <table cellspacing="0" cellpadding="2">
+     <tr class="sibal">
+       <th class="opercity">SUN</th>
+       <th>MON</th>
+       <th>TUE</th>
+       <th>WED</th>
+       <th>THU</th>
+       <th>FRI</th>
+       <th class="opercity">SAT</th>
+       </tr>
+     <tr class="up">
+       <td class="own">29</td>
+       <td class="two">30</td>
+       <td class="three">31</td>
+       <td class="four">1.1</td>
+       <td class="five">2</td>
+       <td class="six">3<div class="circleone"></div><div class="circletwo"></div><div class="circlethree"></div></td>
+       <td class="seven">4</td>
+       </tr>
+     <tr>
+       <td class="gray">5</td>
+       <td>6</td>
+       <td>7</td>
+       <td>8</td>
+       <td>9</td>
+       <td>10</td>
+       <td class="gray">11</td>
+       </tr>
+     <tr>
+       <td class="gray">12</td>
+       <td>13</td>
+       <td>14</td>
+       <td>15</td>
+       <td>16</td>
+       <td>17</td>
+       <td class="gray">18</td>
+       </tr>
+     <tr>
+       <td class="gray">19</td>
+       <td>20</td>
+       <td>21</td>
+       <td>22</td>
+       <td><div class="sohard">23</div></td>
+       <td>24</td>
+       <td class="gray">25<div class="circletwo"></div><div class="circlethree"></div></td>
+       </tr>
+     <tr>
+       <td class="gray">26</td>
+       <td>27</td>
+       <td>28</td>
+       <td>29</td>
+       <td>30</td>
+       <td>31</td>
+       <td class="gray">2.1</td>
+       </tr>
+     </table>
+ </div>
+  <div class="under">
+   <span class="gray">WEEK</span> <div class="line"></div> <span>MONTH</span> <div class="line"></div> <span class="gray">YEAR</span>
+    </div>
+</div>
+
+</body>
+</html>
